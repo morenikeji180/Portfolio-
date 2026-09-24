@@ -3,61 +3,98 @@
 <head>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
+    <title>Yusuf Amidat Opeyemi — Software Engineer in training portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1> HI, I AM YUSUF AMIDAT OPEYEMI</h1>
-        <p> I AM A STUDENT AND A FUTURE SOFTWARE ENGINEER</p>
-    <a href="#aboutme"> <button>About Me</button></a>
-    <a href="#projects"><button>Projects</button></a>
-    <a href="#contact"><button>Contact</button></a>
-
-        <nav>
+    
+<header class="nav">
+  <div class="nav-inner">
+    <a class="mark" href="#top">YUSUF<span>.</span></a>
+    <ul class="nav-links">
+       <button> <li><a href="#about">About Me</a></li></button>
+      <button><li><a href="#projects">Projects</a></li></button>
+       <button> <li><a href="#contact">Contact</a></li></button>
+    </ul>
+    </div>
     </header>
-    <main>  
+
+    <main> 
+        <section id="top">
+            <h1>YUSUF AMIDAT OPEYEMI</h1>
+            <div class="wrap">
+            <p class="tagline">Student · Aspiring Software Engineer</p>
+           <p class="role">I build small, working things while I learn — and I'm getting better at it one project at a time.</p>
+      <p class="bio">I'm a student with a growing interest in software development. Right now I'm focused on the fundamentals — HTML, CSS, and JavaScript — and applying them to real projects instead of just tutorials, because that's where the actual learning happens.</p>
+            <div class="cta-row">
+        <a class="view" href="#projects"> See my projects</a>
+        <br>
+        <a class="view" href="#Contact"> Get in touch</a> 
+      </div>
+      </div>
+        </section>
+
         <section id="about">
-            <h2>About Me</h2>
+             <div class="section-head">
+                <h2>About me</h2>
+            </div>
+            <div class="about grid"
             <p>I am a passionate student with a keen interest in software development. I enjoy
              learning new technologies and applying them to solve real-world problems.
             </p>
+             <ul class="facts">
+          <li><strong>Focus:</strong> HTML, CSS, JavaScript,Python</li>
+          <li><strong>Currently:</strong> Student</li>
+          <li><strong>Goal:</strong> Software engineering</li>
+          <li><strong>Approach:</strong> Learn by building</li>
+        </ul>
+        </div>
              </section>
 
              <section id="projects">
+                <div>
+
                 <h2>Projects</h2>
                  <article class="project">
+                <H3> PERSONAL PORTFOLIO</H3>
                 <p>THIS IS MY PERSONAL PORTFOLIO WEBSITE WHERE I SHOW CASE MY SKILLS</p>
-                <H3> PROJECT 1: PERSONAL PORTFOLIO</H3>
-                <a href="index.html" target ="_blank"><button>View Project</button></a>
+                <a class="btn btn-primary" href="index.html" target="_blank" rel="noopener">View Project</a>
+                </div>
                 </article>
 
-                
   <article class="project">
-                <p>THIS IS MY PERSONAL PORTFOLIO WEBSITE WHERE I SHOW CASE MY SKILLS</p>
                 <H3> PROJECT 2: TASK MANAGER</H3>
-                  <a href="task manager.html" target ="_blank"><button>View Project</button></a>
+                 <p>A simple task-tracking app built to practice structuring a project beyond a single static page.</p>
+                  <a class="btn btn-primary" href="task manager.html" target ="_blank" rel="noopener">View Project</a>
 
                 </article>
                     
              </section>
 
+            
              <!-- CONTACTS-->
               <section id="Contact"> 
+                 <div class="section-head">
                 <h2>contact me</h2>
-                <p>you can reach me through my email address or phone number </p>
-                <ul>
-                    <li>EMAIL:opehameedat.com</li>
-                    <li>http://www.linkedin.com/in/amidat-yusuf-opeyemi-1a3273436</li>
-                    <li>PHONE NUMBER:07059412508</li>
-
+                <div class="contact card">
+                     <p class="lead">Have a project, an opportunity, or just want to say hi? I'd like to hear from you.</p>
+                    <p>you can reach me through my email address or phone number </p>
+                <ul class="contact list">
+                    <li><span class="label">Email:</span><a href="mailto:opehameedat@gmail.com">GMAIL ACCOUNT</a></li>
+                    <li><span class="label">Linkedin:</span><a href="http://www.linkedin.com/in/amidat-yusuf-opeyemi-1a3273436" target="_blank" rel="noopener">LinkedIn Profile</a></li>
+                    <li><span class="label">Phone:</span><a href="tel:+2347059412506">Call Now</a></li>
+                    <li><span class="label">Github:</span><a href="https://github.com/morenikeji180" target="_blank" rel="noopener">GitHub Profile</a>
+                    </div>
+                 </div>
                 </ul>
-                
               </section>
     </main>
 
+   
     <footer>
-        <p>(C) 2026 MY PORTFOLIO. MADE WITH ❤️ CODE BY H-OPE</p>
+        <div class="footer-inner">
+        <p>© 2026 Yusuf Amidat Opeyemi. Built with HTML &amp; CSS.</p>
+        </div>
     </footer>
 
 
